@@ -1,0 +1,115 @@
+.container{
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    width: 960px;
+
+}
+
+
+.tasks
+{
+    float: left;
+    background-color: whitesmoke;
+    padding: 20px 35px;
+    margin-left: 15%;
+    margin-top: 20px;
+    border: 1px solid darkgrey;
+    margin-bottom: 0;
+    width: 34%;
+}
+.header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    
+}
+.header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.add-task
+{
+    background-color: whitesmoke;
+    height: 180px;
+    margin-right: 15%;
+    margin-top: 20px;
+    border: 1px solid darkgray;
+    width: 32%;
+    padding: 10px 35px;
+    float: right;
+}
+
+.add-task input[type="submit"]
+{
+   font-family: tahoma;
+   border-color:darkgray;
+   text-align: center;
+   font-size: 12px;
+   margin-right: 2%;
+   border-radius: 5px;
+   padding-top: 4px;
+}
+.add-task h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.items{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    min-width: 34%;
+}
+.items p {
+   display: inline;
+   padding-right: 18px;
+   word-break: break-all;
+   white-space: normal;
+}
+
+.items button{
+   margin-right: 5px;
+   font-size: 15px;
+   display: flex;
+
+}
+
+body{
+    background-image: url(/images/bg.png);
+    
+}
+header button{
+    background-color: aliceblue;
+   font-family: tahoma;
+   border-color:darkgray;
+   text-align: center;
+   font-size: 10px;
+   font-weight: bold;
+   border-radius: 5px;
+   margin-top: 10px;
+  
+}
+header a{
+    text-decoration: none;   
+    color: black;
+}
+a:visited{
+    color: black;
+}
+header{
+    text-align: right;
+    margin-right: 3%;
+}
+.add-task input[type="text"]
+{
+    padding-bottom: 4px;
+}
+.add-task input[type="file"]
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+header a:hover{
+    color:black; 
+    /* changes link color on hover */
+}
